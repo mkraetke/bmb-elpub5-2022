@@ -77,6 +77,13 @@ https://www.w3.org/TR/xslt20/
 
 ### Schematron
 
+1. kwd-group muss mindestens drei kwd-Elemente enthalten
+2. die Elemente volume und issue müssen ausschließlich Zahlen enthalten.
+3. pub-date day, month und year entsprechend nur aus Zahlen bestehen bzw. die richtige Anzahl von Stellen.
+4. Letzte Seite muss größer als die erste Seite sein. &lt; und &gt;
+5. Copyright Jahr muss größer als 1990 sein.
+6. Der Dateiname in related-article muss immer mit der Endung ".pdf" enden.
+
 #### Spec
 
 https://standards.iso.org/ittf/PubliclyAvailableStandards/c055982_ISO_IEC_19757-3_2016.zip
