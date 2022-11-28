@@ -39,6 +39,15 @@ Nachfragen können natürlich auch via E-Mail gestellt werden.
 2. Prüfen der JATS-Daten mit [ISO Schematron](http://schematron.com/)
 3. Erstellen einer Druckvorlage mit PrintCSS
 
+### Schematron
+
+1. kwd-group muss mindestens drei kwd-Elemente enthalten
+2. die Elemente volume und issue müssen ausschließlich Zahlen enthalten.
+3. pub-date day, month und year entsprechend nur aus Zahlen bestehen bzw. die richtige Anzahl von Stellen.
+4. Letzte Seite muss größer als die erste Seite sein. &lt; und &gt;
+5. Copyright Jahr muss größer als 1990 sein.
+6. Der Dateiname in related-article muss immer mit der Endung ".pdf" enden.
+
 ## Abgabe
 
 * XSLT, Schematron, CSS
@@ -74,15 +83,6 @@ https://www.w3.org/TR/xslt20/
 * [Norman Walsh: Introduction to XSLT 2.0](https://nwalsh.com/docs/tutorials/extreme2006/plain.html
 )
 * [W3Schools: XSLT Introduction](https://www.w3schools.com/xml/xsl_intro.asp)
-
-### Schematron
-
-1. kwd-group muss mindestens drei kwd-Elemente enthalten
-2. die Elemente volume und issue müssen ausschließlich Zahlen enthalten.
-3. pub-date day, month und year entsprechend nur aus Zahlen bestehen bzw. die richtige Anzahl von Stellen.
-4. Letzte Seite muss größer als die erste Seite sein. &lt; und &gt;
-5. Copyright Jahr muss größer als 1990 sein.
-6. Der Dateiname in related-article muss immer mit der Endung ".pdf" enden.
 
 #### Spec
 
